@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# This script creates setups up a development environment using python virtual environments
+# It sets up the environment at the path specified by the -w flag. It currently does not install
+# any python requirements.
+
 
 # Set hard fail on error
 set -e
