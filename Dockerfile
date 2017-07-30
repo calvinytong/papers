@@ -11,6 +11,6 @@ RUN mkdir -p /usr/papers
 
 WORKDIR /usr/papers
 
-ADD . /usr/papers
+ADD . .
 
 RUN /bin/bash
